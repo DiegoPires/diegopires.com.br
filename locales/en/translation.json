@@ -1,0 +1,53 @@
+{
+	"app": 
+    {
+       "eu" : 
+       {
+			"titulo": "Me",
+			"introducao" : "Analist/developer, pseudo-designer, aspiring photographer, weekend athlete, polyglot and troglodyte.",
+			"instrucao" : "Scroll down for more informatins or use the menu in the footer"
+		},
+        "sobremim": 
+        {
+            "titulo": "About me",
+            "paragrafo1": "I'm 25 years old, bachelor in Information System by Faculdade Impacta. I've started an MBA in System Architecture in FIAP, but I gave up because there was more administration than architecture. I've been a developer for 8 years now.",
+            "paragrafo2": "I've worked with multiple types of projects, mainly web, like CMS, E-commerce, system for education, BI e more recently some crazy stuff for digitalization of documents.",
+            "paragrafo3": "I've knowledge in the Microsoft plataform .Net (with certifications), C# and VB.Net without preference (just kidding, everyone prefers C#), I know a little of Ruby on Rails too, I give my best with Javascript (when will they end this framework mess?), and more recently I started some studys in Java for Android. I've worked a lot with SQL Server and Oracle and a little with NoSQL databases like Mongodb and Neo4j.",
+            "paragrafo4": "Others technologies I know incluce some javascript librarys and frameworks like AngularJS, KnockoutJS, BackboneJS, JQuery, NojeJS and some other stuff you can find on Github, QlikView for BI and Microsoft Dynamics CRM for CRM (duh!).",
+            "paragrafo5": "I speak four languages: Portugues (my main language), English and French in an intermediate/advanced level and German in a very basic level (the site doens't even have a version of it yet).",
+            "paragrafo6_1": "Besides my life of developer I like to ",
+            "paragrafo6_2": "draw",
+            "paragrafo6_3": "photograph",
+            "paragrafo6_4": "write",
+            "paragrafo6_5": "and I break myself sometimes in some sports."
+        },
+        "experiencia": 
+        {
+            "titulo": "Experience",
+            "exp1_titulo" : "DigiSystem – Sênior Developer – 04/2012 (actual job)",
+            "exp1_descricao" : "When working with projects I was responsible to create architecture for new websites, aid in the development and maintenance in those systems using mainly ASP.Net, JQuery, AngularJS, WebAPI e EntityFramework with VB.Net and C# alike. This structure was choose after some time because it gave the team flexibility and was very easy to learn and create things. I worked a lot with SQL Server and Oracle too. And I was responsible to teach new developers in the company. Nowadays, I'm in the products team where I'm responsible of the development of a digitalization system created with Windows Presentation Foundation (WPF) with integration with a enterprise content management (ECM) open source named Alfresco",
+            "exp2_titulo" : "F5 Agência Digital – Developer - 04/2011 until 04/2012",
+            "exp2_descricao" : "Backend developer of websites and e-commerce using Telerik SiteFinity tools (the company was one of the few partners of then in Brazil at the time), making customizations and implementing new modules using ASP.Net 3.5, plain old Javascript (with a little help of JQuery) and SQL Server 2008.",
+            "exp3_titulo" : "BigSolutions Tec. da Inf. Ltda – Developer – 04/2008 until 04/2011",
+            "exp3_descricao" : "Full stack developer in many projects using classic ASP 3.0, ASP.Net 2.0 and 3.5, Javascript and SQL Server, choosing the technologies according to the necessities. Responsible for the integration of ways of payment for e-commerce websites. Worked with BI projects with QlikView and Reporting Service for the automobile industry and used some of Microsoft Dynamics CRM tools with customizations.",
+            "exp4_titulo" : "2Rios Agência Digital – Junior developer – 01/2007 à 04/2008",
+            "exp4_descricao" : "Full stack developer for their own CMS product build with classic ASP 3.0, Javascript and SQL Server used mainly for the Third Sector. Responsible for creating and managing mailing lists for a job search service the company offered."
+        },
+        "certificacoes": {
+            "titulo": "Certifications",
+            "idioma" : "Languages",
+            "tcfquebec" : "TCF Quebéc - Intermediate/Advanced - B2"
+        },
+        "cursos": {
+            "titulo": "Courses"
+        },
+        "contato": {
+            "titulo": "Contacts"
+        } 
+	},
+    "404" :
+    {
+        "titulo": "Hey, it's dangerous to go alone in the internet! Take this",
+        "mensagem": "Or click here to go back to the home page"
+    }
+}

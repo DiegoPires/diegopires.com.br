@@ -177,7 +177,7 @@ main {
 /* Slide 2 */
 #div-sobre-min .bcg {
     background: none;
-    height: 450px;
+    height: 550px;
 }
 
 /* Slide 3 */
@@ -313,6 +313,13 @@ position: relative;
     font-size: 30px;
     line-height: normal;
     top: -50px;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.setabaixo a
+{
+    text-decoration: none !important;
 }
 
 .carrossel
@@ -426,6 +433,44 @@ position: relative;
         margin: 0px 0px 10px 0px;
     }
 
+#idiomas
+{
+    position: relative;
+    float: right;
+    margin-top: 30px;
+}
+
+#idiomas ul{
+    position: absolute;
+    list-style: none;
+    z-index: 5;
+    margin: 10px;
+    padding: 0px;
+}
+#idiomas ul li a{
+    color: #CCC;
+    text-decoration: none;
+
+}
+
+#idiomas ul li { 
+    margin: 10px 5px; 
+    padding: 5px; 
+    
+    font-size: 11px; 
+    width: 70px; 
+    text-align: right;
+    background-color: #333; 
+    height: 13px;
+}
+
+span.texto {
+    float:right;
+}
+
+span.seta{
+    float:left;
+}
 
 /* ==========================================================================
    Helper classes
@@ -615,4 +660,21 @@ position: relative;
     h3 {
         page-break-after: avoid;
     }
+}
+
+.centered-404
+{
+     width:500px;
+    height:400px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin:-200px 0 0 -250px;
+    color: #FFF;
+    text-align:center;
+}
+
+.centered-404 a
+{
+    color: #fff;
 }

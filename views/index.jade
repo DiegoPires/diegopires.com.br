@@ -4,21 +4,21 @@ block content
 	#skrollr-body.div
 
 		<!-- http://ihatetomatoes.net/how-to-create-a-parallax-scrolling-website/#mab-10201 -->
-		
+
 		nav 
 			ul
 				li
-					a(href="#div-eu") Eu
+					a(href="#div-eu")= t('app.eu.titulo')
 				li
-					a(href="#div-sobre-min") Sobre mim
+					a(href="#div-sobre-min")= t('app.sobremim.titulo')
 				li
-					a(href="#div-experiencia") Experiência
+					a(href="#div-experiencia")= t('app.experiencia.titulo')
 				li
-					a(href="#div-certificacoes") Certificações
+					a(href="#div-certificacoes")= t('app.certificacoes.titulo')
 				li
-					a(href="#div-cursos") Cursos
+					a(href="#div-cursos")= t('app.cursos.titulo')
 				li
-					a(href="#div-contato") Contato
+					a(href="#div-contato")= t('app.contato.titulo')
 
 		section#div-eu.homeSlide
 			div.bcg-mask-principal &nbsp;
@@ -26,40 +26,61 @@ block content
 				div.hsContainer
 					div.hsContent.first(data-center="opacity: 1", data-bottom="opacity: 0" , data-anchor-target="#div-eu h2")
 					
+						div#idiomas
+							ul
+								li 
+									a#de(href='/?setLng=pt') 
+										span.seta <
+										span.texto Português
+								li
+									a#de(href='/?setLng=en') 
+										span.seta <
+										span.texto English
+								li
+									a#de(href='/?setLng=fr') 
+										span.seta <
+										span.texto Français
+
 						.caixa
 							.opacidadeacima
 							.textoacima
 								h2 Diego Silva Pires
-								p Analista desenvolvedor, pseudo-desenhista, aspirante de fotografia, atleta de fim de semana, poliglota e troglodita.
+								p= t('app.eu.introducao')
 								br
 
-								p.subtexto Role a página para baixo para mais informações ou use o menu do rodapé
-								p.setabaixo ↓
+								p.subtexto= t('app.eu.instrucao')
+								
+								p.setabaixo 
+									a(href="#div-sobre-min") ↓
 		
 		section#div-sobre-min
 			div.bcg(data-anchor-target="#div-sobre-min")
 				div.hsContainer
 					div.hsContent(data-center="opacity: 0", data-106-top="opacity: 1", data-anchor-target="#div-sobre-min h2")
 		
-						h2 Sobre mim
+						h2= t('app.sobremim.titulo')
 
-						p Tenho 24 anos, sou formado em Sistemas da Informação pela Faculdade Impacta, atualmente cursando Arquitetura de Sistemas pela FIAP, sou desenvolvedor web a 7 anos.
+						p= t('app.sobremim.paragrafo1')
 
-						p Já atuei com projetos diversos dentre eles CMS, E-commerce, educacionais e de BI.
+						p= t('app.sobremim.paragrafo2')
 
-						p Tenho conhecimento na plataforma Microsoft .Net (com certificações), Ruby on Rails e Javascript, já atuei com bancos de dados SQL Server, Oracle e MySQL.
+						p= t('app.sobremim.paragrafo3')
 
-						p Outras tecnologias que já atuei incluem algumas bibliotecas e frameworks javascript como AngularJS, KnockoutJS, BackboneJS, JQuery e outras tranqueiras encontradas no Github. QlikView para BI. Dynamics CRM para CRM (duh!).
+						p= t('app.sobremim.paragrafo4')
 
-						p Falo atuamente três idiomas: Inglês e Francês em nível intermediário avançado (certificações a caminho) e Alemão bem básico.
+						p= t('app.sobremim.paragrafo5')
 
-						p Além de desenvolver eu também 
-							a(href='http://diegosilvapires.deviantart.com/', target='_blank') desenho
+						p= t('app.sobremim.paragrafo6_1')
+							a(href='http://diegosilvapires.deviantart.com/', target='_blank')= t('app.sobremim.paragrafo6_2') 
 							,&nbsp;
-							a(href='http://flickr.com/photos/diegosilvapires', target='_blank') fotográfo
+							a(href='http://flickr.com/photos/diegosilvapires', target='_blank')= t('app.sobremim.paragrafo6_3') 
 							,&nbsp;
-							a(href='http://blog.diegopires.com.br', target='_blank') escrevo
-							&nbsp; e me arrebendo em alguns esporte.
+							a(href='http://blog.diegopires.com.br', target='_blank')= t('app.sobremim.paragrafo6_4') 
+							&nbsp;
+							span= t('app.sobremim.paragrafo6_5')
+
+						p.setabaixo 
+							a(href="#div-experiencia") ↓
 
 		section#slide-3
 			div.bcg-mask &nbsp;
@@ -74,21 +95,21 @@ block content
 				div.hsContainer
 					div.hsContent(data-center="opacity: 0", data-106-top="opacity: 1", data-anchor-target="#div-experiencia h2")
 						
-						h2 Experiência Profissional:
-						h4 DigiSystem – Desenvolvedor Sênior – 04/2012 à atual
-						p Responsável por prover arquiteturas para novos sites, desenvolvedor e dar manutenção em sistemas na sua maioria educacionais usando principalmente ASP.Net, JQuery, AngularJS, WebAPI e EntityFramework com VB.Net e C# em diversas versões do framework. Atuação com bancos SQL Server e Oracle. Também responsável pela tutoria de novos colabores da empresa.
+						h2= t('app.experiencia.titulo')
+						h4= t('app.experiencia.exp1_titulo') 
+						p= t('app.experiencia.exp1_descricao') 
 						
-						h4 F5 Agência Digital – Desenvolvedor Pleno - 04/2011 à 04/2012
-						p Desenvolvedor back-end em sistemas institucionais e de e-commerce com a ferramenta Telerik SiteFinity, customizando e implementando novos módulos em ASP.Net 3.5. Manutenção de websites existentes com ASP.Net Framework 3.5 e SQL Server 2008.
+						h4= t('app.experiencia.exp2_titulo') 
+						p= t('app.experiencia.exp2_descricao') 
 
-						h4 BigSolutions Tec. da Inf. Ltda – Desenvolvedor Pleno – 04/2008 à 04/2011
-						p Desenvolvedor full-stack em projetos diversos com ASP 3.0, ASP.Net 2.0 e 3.5, Javascript e SQL Server. Atuação em projetos em BI com a ferramenta QlikView e Reporting Service e experiência com customização e implantação de projetos usando Microsoft Dynamics CRM.
+						h4= t('app.experiencia.exp3_titulo') 
+						p= t('app.experiencia.exp3_descricao') 
 
-						h4 2Rios Agência Digital – Estagiário – 01/2007 à 04/2008
-						p Desenvolvedor full-stack em CMS próprio com ASP 3.0, Javascript e SQL Server voltado principalmente para o 3º setor. Criação e gerenciamento de mailing e ferramenta de e-mail marketing.
-						br
-						br
-						br
+						h4= t('app.experiencia.exp4_titulo') 
+						p= t('app.experiencia.exp4_descricao') 
+						
+						p.setabaixo 
+							a(href="#div-certificacoes") ↓
 
 		section#slide-5
 			div.bcg-mask &nbsp;
@@ -104,12 +125,12 @@ block content
 				div.hsContainer
 					div.hsContent(data-center="opacity: 0", data-106-top="opacity: 1", data-anchor-target="#div-certificacoes h2")
 
-						h2 Certificações 
+						h2= t('app.certificacoes.titulo')
 						h3 Microsoft
 						ul
 							li Microsoft Certified Solutions Developer: Web Applications (MCSD)
 								ul
-									li 70 787 - Developing Windows Acure and Web Services
+									li 70 787 - Developing Windows Azure and Web Services
 									li 70 486 - Developing ASP.NET MVC 4.5 Web Applications
 									li 70 480 - Programming in HTML5 with JavaScript and CSS3
 							li Outras
@@ -117,12 +138,12 @@ block content
 									li 70 515 - TS: Web Applications Development with Microsoft .NET Framework 4
 									li 70 562 - TS: Microsoft .NET Framework 3.5, ASP.NET Application Development
 						
-						h3 Idiomas
+						h3= t('app.certificacoes.idioma')
 						ul
-							li TCF Quebéc - Nível intermediário avançado - B2
-						br
-						br
-						br
+							li= t('app.certificacoes.tcfquebec')
+						
+						p.setabaixo 
+							a(href="#div-cursos") ↓
 
 		section#slide-7
 			div.bcg-mask &nbsp;
@@ -137,7 +158,7 @@ block content
 				div.hsContainer
 					div.hsContent(data-center="opacity: 0", data-106-top="opacity: 1", data-anchor-target="#div-cursos h2")
 
-						h2 Cursos
+						h2= t('app.cursos.titulo')
 						h3 Caelum
 						p RR 71 - Desenvolvimento ágil para web com Ruby on Rails 3 - 11/2013
 						p RR 75 - Ruby e Rails avançados: lidando com problemas do dia a dia - 11/2013
@@ -154,9 +175,10 @@ block content
 						p 2956 - Core Foundations of Microsoft. NET 2.0 Development – 07/2009
 						p 2544 - Advanced Web Application Technologies with Microsoft Visual p Studio 2005 – 03/2009
 						p 2310 - Developing Microsoft ASP.NET Web Applications Using Visual Studio.NET – 10/2008
-						br
-						br
-						br
+						
+
+						p.setabaixo 
+							a(href="#div-contato") ↓
 
 		section#slide-9
 			div.bcg-mask &nbsp;
@@ -167,11 +189,11 @@ block content
 					div.hsContent &nbsp;
 
 		section#div-contato
-			div.bcg(data-anchor-target="#div-cursos")
+			div.bcg(data-anchor-target="#div-contato")
 				div.hsContainer
 					div.hsContent(data-center="opacity: 0", data-106-top="opacity: 1", data-anchor-target="#div-cursos h2")
 
-						h2 Contatos
+						h2= t('app.contato.titulo')
 						ul
 							li 
 								i.fa.fa-envelope-o &nbsp;

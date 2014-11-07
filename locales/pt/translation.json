@@ -1,0 +1,55 @@
+{
+    "404": {
+        "titulo": "404.titulo",
+        "mensagem": "404.mensagem"
+    },
+    "app": {
+        "portugues": "Português",
+        "ingles": "Inglês",
+        "frances": "Francês",
+        "eu": {
+            "titulo": "Eu",
+            "introducao": "Analista desenvolvedor, pseudo-desenhista, aspirante de fotografia, atleta de fim de semana, poliglota e troglodita.",
+            "instrucao": "Role a página para baixo para mais informações ou use o menu do rodapé"
+        },
+        "sobremim": {
+            "titulo": "Sobre mim",
+            "paragrafo1": "Tenho 25 anos, formado em Sistemas da Informação pela Faculdade Impacta, comecei a fazer o MBA de Arquitetura de Sistemas pela FIAP, mas desisti por ter mais administração do que arquitetura (gente isso é propaganda enganosa). Sou desenvolvedor a 8 anos.",
+            "paragrafo2": "Já atuei com projetos diversos, principalmente, mas não exclusivamente web, dentre eles CMS, E-commerce, educacionais, BI e mais recentemente loucuras com digitalização de documentos.",
+            "paragrafo3": "Tenho conhecimento na plataforma Microsoft .Net (com certificações), C# e VB.Net sem preferências (mentira, todo mundo gosta mesmo é de C#), conheço um pouquinho de Ruby on Rails, me esforço ao máximo em Javascript (quando vão acabar as maluquices de framework? AngularJs, estou falando especialmente de você), e mais recentemente tenho me aventurado em Java para desenvolvedor apps para Android. Já atuei bastante com bancos de dados SQL Server e Oracle (infelizmente) e recentemente tenho dado uma chance pro movimento NoSql, NewSql ou qualquer que seja o nome que estão dando hoje.",
+            "paragrafo4": "Outras tecnologias que já atuei incluem algumas bibliotecas e frameworks javascript como AngularJS, KnockoutJS, BackboneJS, JQuery, NojeJS e outras tranqueiras encontradas no Github. QlikView para BI. Dynamics CRM para CRM (duh!).",
+            "paragrafo5": "Falo atuamente três idiomas: Inglês e Francês em nível intermediário avançado (certificações a caminho) e Alemão bem básico (bem básico mesmo, o site nem tem essa versão ainda).",
+            "paragrafo6_1": "Além de desenvolver eu também ",
+            "paragrafo6_2": "desenho",
+            "paragrafo6_3": "fotográfo",
+            "paragrafo6_4": "escrevo",
+            "paragrafo6_5": "e me arrebendo em alguns esporte."
+        },
+        "experiencia": {
+            "titulo": "Experiência",
+            "exp1_titulo": "DigiSystem – Desenvolvedor Sênior – 04/2012 à atual",
+            "exp1_descricao": "Na fábrica de software era responsável por prover arquiteturas para novos sites, desenvolvedor e dar manutenção em sistemas na sua maioria educacionais usando principalmente ASP.Net, JQuery, AngularJS, WebAPI e EntityFramework com VB.Net e C#, ecossistema esse escolhido por trazes diversas facilidades e flexibilidade no desenvolvimento. Atuação com bancos SQL Server e Oracle. Também responsável pela tutoria de novos colabores da empresa. Atualmente na área de produtos, sou responsável pela criação e melhoramento de software de digitalização em Windows Presentation Foundation (WPF) com integração com sistema de controle de conteúdos (ECM) open source chamado Alfresco",
+            "exp2_titulo": "F5 Agência Digital – Desenvolvedor Pleno - 04/2011 à 04/2012",
+            "exp2_descricao": "Desenvolvedor back-end em sistemas institucionais e de e-commerce com a ferramenta Telerik SiteFinity (ferramenta pela qual a empresa possuia parceria, uma das únicas representantes do Brasil na época), customizando e implementando novos módulos em ASP.Net 3.5, o bom e velho Javascript (com um pouco de ajuda de JQuery) e SQL Server 2008.",
+            "exp3_titulo": "BigSolutions Tec. da Inf. Ltda – Desenvolvedor Pleno – 04/2008 à 04/2011",
+            "exp3_descricao": "Desenvolvedor full-stack em projetos diversos com ASP 3.0, ASP.Net 2.0 e 3.5, Javascript e SQL Server, variando de acordo com a necessidade do projeto. Integração de formas de pagamento para sistema de e-commerce com as tecnologias mencionadas. Atuação em projetos em BI com a ferramenta QlikView e Reporting Service para o setor automobilistico e experiência com customização e implantação de projetos usando Microsoft Dynamics CRM.",
+            "exp4_titulo": "2Rios Agência Digital – Estagiário – 01/2007 à 04/2008",
+            "exp4_descricao": "Desenvolvedor full-stack em CMS próprio com ASP 3.0, Javascript e SQL Server voltado principalmente para o Terceiro Setor. Criação e gerenciamento de mailing para realização de campanhas de marketing e de envio de currículos, serviço esse ofertado pela empresa para recolocação no mercado de trabalho."
+        },
+        "certificacoes": {
+            "titulo": "Certificações",
+            "idioma": "Idiomas",
+            "tcfquebec": "TCF Quebéc - Nível intermediário avançado - B2"
+        },
+        "cursos": {
+            "titulo": "Cursos"
+        },
+        "contato": {
+            "titulo": "Contatos"
+        }
+    },
+    "404": {
+        "titulo" : "Ei, é perigoso ir sozinho para a internet! Pegue isso.",
+        "mensagem": "Ou clique aqui para voltar a página inicial"
+    }
+}

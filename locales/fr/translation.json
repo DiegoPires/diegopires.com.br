@@ -1,0 +1,56 @@
+{
+	"app": 
+    {
+        "eu" : 
+        {
+            "titulo": "Moi",
+            "introducao": "Analyst développeur, pseudo-dessinateur, photographe en herbe, athlète de fin de semaine, polyglotte et troglodyte.",
+            "instrucao" : "Faites défiler pour plus informatins ou utilisez le menu en bas de page"
+        },
+        "sobremim": 
+        {
+            "titulo": "Sur moi",
+            "paragrafo1": "J'ai 25 ans, je suis titulaire d'un baccalauréat en Système d'Information pour Faculdade Impacta. J'ai commencé a faire un MBA d'Architecture de Systèmes à FIAP, mais j'ai abandonné parce qu'il avais plus de administration que d'architeture. J'ai 8 ans d'experience comme developpeur.",
+            "paragrafo2": "J'ai travaillé dans les project divers, principalment web comme des CMS, E-commerce, système d'education, BI et récemment quelque choose bizarre avec digitalisation de documents.",
+            "paragrafo3": "J'ai connaissance dans la plateforme Microsoft plataform .Net (avec des certification), C# et VB.Net sans préférence (c'est une blague, tout le monde préfére C#), J'ai connaissance d'un peux de Ruby on Rails aussi, j'essaie mon mieux avec Javascript (quand il vont finnir avec le bordel des frameworks?), et récemment j'ai commencé a etudier Java pour Android. J'ai travaillé beaocoup avec SQL Server et Oracle et un peux avec NoSQL comme Mongodb et Neo4j.",
+            "paragrafo4": "d'autres technologies lesqueles j'avais utilisé comporte des libraries et frameworks comme AngularJS, KnockoutJS, BackboneJS, JQuery, NojeJS et d'autres chooses qu'on trouve dans Github, QlikView pour BI et Microsoft Dynamics CRM pour CRM (duh!).",
+            "paragrafo5": "Je parle quatre langues: Portugais (langue maternelle), Anglais et Français niveaus intermédiaire/avancé et Allemand trés basique (il n'y pas même une option de traduction pour mon site encore).",
+            "paragrafo6_1": "En plus d'être devellopeur, j'aime bien ",
+            "paragrafo6_2": "dessiner",
+            "paragrafo6_3": "photographier",
+            "paragrafo6_4": "écriver",
+            "paragrafo6_5": "et je me casse parfois quand je pratique des sports."
+        },
+        "experiencia": 
+        {
+            "titulo": "Experiência",
+            "exp1_titulo" : "DigiSystem – Desenvolvedor Sênior – 04/2012 à atual",
+            "exp1_descricao" : "Dans le deppartment de project j'ai realisé le dévelopemment de systèmes principalement d’éducation utilisant C#, VB.Net, WebAPI, Entity Framework, AngularJS, JQuery, Crystal Report, Reporting Service et SQL Server 2008. Maintenance de la architecture e du framework de l'entreprise et enseignement des nouveaux développeurs. Actuelmment je travailĺé dans le deppartment de produits ou je suis responsable pour le creation d'un system de digitalisation de documents avec Windows Presentation Foundation (WPF) et je fait les integration avec un system de controle de contenu (ECM) open source, qui s'appele Alfresco",
+            "exp2_titulo" : "F5 Agência Digital – Desenvolvedor Pleno - 04/2011 à 04/2012",
+            "exp2_descricao" : "Développement de sites web institutionnels et e-commerce en utilisant le CMS Sitefinity de l’entreprise Telerik, personnalisations dans le logiciel et création de nouveaux modules avec Asp.Net 3.5, jQuery et SQL Server 2008.",
+            "exp3_titulo" : "BigSolutions Tec. da Inf. Ltda – Desenvolvedor Pleno – 04/2008 à 04/2011",
+            "exp3_descricao" : "Développement et maintenance de systèmes utilisant ASP 3.0, ASP.Net 2.0 et ASP.Net 3.5. J’ai travaillé dans la création de modules sur mesure pour l'ERP de l'entreprise, l'intégration de site e-commerce, les systèmes de vitrine des produits, j’ai fait personnalisation de Microsoft CRM 4.0 et j’ai travaillé avec des projets BI en utilisant QlikView et Microsoft Technology, principalement Reporting Service..",
+            "exp4_titulo" : "2Rios Agência Digital – Estagiário – 01/2007 à 04/2008",
+            "exp4_descricao" : "Développement et maintenance de CMS propre en ASP 3.0 et SQL Server 2005 et gestion du système d'e-mail marketing.."
+        },
+        "certificacoes": 
+        {
+            "titulo": "Certifications",
+            "idioma" : "Langue",
+            "tcfquebec" : "TCF Quebéc - Niveau intermédiaire avancé - B2"
+        },
+        "cursos": 
+        {
+            "titulo": "Courses"
+        },
+        "contato": 
+        {
+            "titulo": "Contacts"
+        }
+	},
+    "404" :
+    {
+        "titulo": "C'est dangereux d'y aller seul dans la internet. Prends ça.",
+        "mensagem": "Ou cliquez ici pour retourner a la page principale"
+    }
+}

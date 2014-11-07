@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  div.centered-404
+    h2= t('404.titulo')
+
+    img(src="images/zelda-sword.png")
+
+    p 
+      a(href='/')= t('404.mensagem')
